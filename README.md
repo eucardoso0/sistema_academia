@@ -54,9 +54,4 @@ Esse projeto demonstra um fluxo completo de arquitetura de dados:
 - Trabalhando com dados sujos e relacionamentos reais
 - Excelente base para projetos maiores de BI e Engenharia de Dados
 
----
-
-### 📎 Licença
-
-Este projeto é livre para fins educacionais.
 
