@@ -14,9 +14,9 @@ Este projeto simula a construção de um sistema de gestão de academia utilizan
 
 ### 2. 🔗 Conexão com Python e Exportação (ETL)
 - Uso de `mysql.connector` e `pandas` para extrair os dados e exportar para `.csv`
-- Arquivo principal: [`scripts/sistema.py`](./scripts/sistema.py)
+- Arquivo principal:  [`scripts/sistema.py`](./scripts/sistema.py)
 - Também foi gerada uma versão consolidada via `JOIN` entre as tabelas:
-  - Resultado: [`analise/dados_academia_completo_1.csv`](.\analise\dados_academia_completo_1.csv)
+  - Resultado: [`analise/dados_academia_completo_1.csv`](./analise/dados_academia_completo_1.csv)
 
 ### 3. 🧹 Limpeza e Tratamento dos Dados
 - Feita diretamente no Power BI:
