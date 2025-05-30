@@ -13,10 +13,10 @@ Este projeto simula a construção de um sistema de gestão de academia utilizan
 - `id_*` com `AUTO_INCREMENT`, e chaves estrangeiras bem definidas
 
 ### 2. 🔗 Conexão com Python e Exportação (ETL)
-- Uso de `mysql.connector` e `pandas` para extrair os dados e exportar para `.csv`
-- Arquivo principal:  [`scripts/sistemaa.py`](./scripts/sistemaa.py)
-- Também foi gerada uma versão consolidada via `JOIN` entre as tabelas:
-  - Resultado: [`analise/dados_academia_completo_1.csv`](./analise/dados_academia_completo_1.csv)
+- Foi utilizado `mysql.connector` e `pandas` no Python para extrair os dados do MySQL.
+- O código principal responsável por essa extração está no arquivo `sistema.py`, localizado na pasta `scripts/`.
+- Além disso, os dados das tabelas foram unidos via JOIN e gerados em um arquivo `.csv` consolidado:
+  - Arquivo gerado: `dados_academia_completo_1.csv` (localizado em `analise/`)
 
 ### 3. 🧹 Limpeza e Tratamento dos Dados
 - Feita diretamente no Power BI:
