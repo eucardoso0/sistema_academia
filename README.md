@@ -16,7 +16,7 @@ Este projeto simula a construção de um sistema de gestão de academia utilizan
 - Uso de `mysql.connector` e `pandas` para extrair os dados e exportar para `.csv`
 - Arquivo principal: [`scripts/sistema.py`](./scripts/sistema.py)
 - Também foi gerada uma versão consolidada via `JOIN` entre as tabelas:
-  - Resultado: [`analise/dados_academia_completo_1.csv`](./analise/dados_academia_completo_1.csv)
+  - Resultado: [`analise/dados_academia_completo_1.csv`](.\analise\dados_academia_completo_1.csv)
 
 ### 3. 🧹 Limpeza e Tratamento dos Dados
 - Feita diretamente no Power BI:
@@ -53,5 +53,3 @@ Esse projeto demonstra um fluxo completo de arquitetura de dados:
 - Da modelagem à carga e visualização
 - Trabalhando com dados sujos e relacionamentos reais
 - Excelente base para projetos maiores de BI e Engenharia de Dados
-
-
