@@ -4,7 +4,6 @@
 Este projeto simula a construção de um sistema de gestão de academia utilizando banco de dados relacional, Python para extração e integração, e Power BI para visualização analítica.
 
 ---
-
 ## 📌 Etapas do Projeto
 
 ### 1. 📦 Modelagem e Criação do Banco de Dados
